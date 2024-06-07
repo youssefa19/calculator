@@ -1,0 +1,28 @@
+
+
+#ifndef SEGMENT_CFG_H_
+#define SEGMENT_CFG_H_
+
+/*FOR ALL TYPE*/
+/*SELECT CC FOR COMMON CATHODE OR CN FOR COMMEN ANODE*/
+
+#define  CC 0
+#define  CN 1
+
+#define  SEG_MODE CC
+
+
+#define TRANSISTROR1 PIND6
+#define TRANSISTROR2 PIND7
+
+DIO_Pin_type SEG_PINArray[]={
+	PINB0,
+	PINB1,
+	PINB2,
+	PINB3,
+	PINB4,
+	PINB5,
+	PINB6,
+};
+
+#endif /* SEGMENT_CFG_H_ */
